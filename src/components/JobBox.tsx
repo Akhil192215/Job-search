@@ -1,6 +1,6 @@
 import { BiTimeFive } from "react-icons/bi";
 
-const JobBox = () => {
+const JobBox:React.FC = () => {
   interface Job {
     id: number;
     title: string;
@@ -34,7 +34,7 @@ const JobBox = () => {
       desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, ipsam doloribus nostrum velit.",
       company: "SoftWorks GmbH",
     },
-    // Add more dummy objects below with unique data
+
     {
       id: 4,
       title: "UI/UX Designer",
@@ -92,7 +92,7 @@ const JobBox = () => {
       company: "AI Solutions Japan",
     },
    
-    // Add more dummy objects as needed
+  
   ];
   return (
     <div >
@@ -126,8 +126,8 @@ const JobBox = () => {
             </span>
           </div>
           <button
-            className="border-[2px] rounded-[10px] w-full p-[10px] text-[14px] font-semibold
-                        hover:bg-white group-hover/item:text-textColor group-hover:text-white"
+            className="item border-[2px] rounded-[10px] w-full p-[10px] text-[14px] font-semibold text-textColor
+                        hover:bg-white  group-hover/item:text-textColor "
           >
             Apply Now
           </button>

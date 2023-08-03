@@ -14,7 +14,8 @@ function App() {
     <NavBar/>
     <SearchBox/>
     <JobBox/>
-   
+   <Value/>
+   <Footer/>
     </div>
    
     </>
